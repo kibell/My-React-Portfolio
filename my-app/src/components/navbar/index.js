@@ -1,16 +1,14 @@
 import React, { Component } from "react";
-import Logo from "../../images/logo192.png";
+import Logo from "../../images/logogif.gif";
 import "./styles.css";
 
 class NavBar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-          Navbar
-        </a>
+      <nav className="navbar navbar-expand-lg">
+        <img src={Logo} alt="" />
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -18,40 +16,40 @@ class NavBar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div
-          class="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item active d1">
-              <a class="nav-link " href="#about">
-                <span class="highlight mr">01</span>About Me{" "}
+          <ul className="navbar-nav">
+            <li className="nav-item active d1">
+              <a className="nav-link " href="#about">
+                <span className="highlight mr">01</span>About Me{" "}
               </a>
             </li>
 
-            <li class="nav-item d3">
-              <a class="nav-link " href="#workExp">
-                <span class="highlight mr">02</span>Work Experience
+            <li className="nav-item d3">
+              <a className="nav-link " href="#workExp">
+                <span className="highlight mr">02</span>Work Experience
               </a>
             </li>
 
-            <li class="nav-item d2">
-              <a class="nav-link" href="#education">
-                <span class="highlight mr ">03</span>Education
+            <li className="nav-item d2">
+              <a className="nav-link" href="#education">
+                <span className="highlight mr ">03</span>Education
               </a>
             </li>
-            <li class="nav-item d4">
-              <a class="nav-link" href="./project.html">
-                <span class="highlight mr d4">04</span>Project Library
+            <li className="nav-item d4">
+              <a className="nav-link" href="./project.html">
+                <span className="highlight mr d4">04</span>Project Library
               </a>
             </li>
 
-            <li class="nav-item d4">
-              <a class="nav-link" href="./contact.html">
-                <span class="highlight mr d4">05</span>Contact Me
+            <li className="nav-item d4">
+              <a className="nav-link" href="./contact.html">
+                <span className="highlight mr d4">05</span>Contact Me
               </a>
             </li>
           </ul>

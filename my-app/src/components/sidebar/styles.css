@@ -1,0 +1,53 @@
+
+
+.sideBar ul li .icons{
+    margin-top: 70px;
+}
+
+
+.resumeP{
+    text-align: center;
+}
+
+.iconP{
+    font-size: 40px;
+    justify-content: center;
+    margin-left: 15px;
+  
+}
+
+.icons{
+    font-size: 40px;
+  
+}
+
+.icons:hover, .iconP:hover{
+    color:#50ccb4
+
+}
+a {
+    text-decoration: none;
+    color: rgb(168, 178, 209);
+}
+
+.sideBar{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: rgb(168, 178, 209);
+    visibility: visible;
+
+}
+
+.sideBar ul{
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;  
+}

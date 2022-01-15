@@ -1,10 +1,17 @@
 
 import NavBar from './components/navbar';
+import Sidebar from './components/sidebar';
 import './App.css';
+import { Fragment } from 'react';
 
 function App() {
   return (
-    <NavBar/>
+   <Fragment>
+   <NavBar/>
+   <Sidebar/>
+   </Fragment>
+      
+    
   );
 }
 
