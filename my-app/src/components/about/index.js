@@ -26,9 +26,9 @@ class About extends Component {
       
           </div>
       
-          <div className="col-lg-5 col-md-12 col-sm-4">
-            <img className="mypic up" src={KBimg}  alt=""/>
-          </div>
+          
+            <img className="mypic col-lg-5 col-md-12 col-sm-4" src={KBimg}  alt=""/>
+         
       
           </div>
        
