@@ -1,7 +1,7 @@
 
 
 .sideBar ul li .icons{
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 
@@ -11,8 +11,8 @@
 
 .iconP{
     font-size: 40px;
-    justify-content: center;
-    margin-left: 15px;
+   margin-bottom: -2px;
+    margin-left: 20px;
   
 }
 

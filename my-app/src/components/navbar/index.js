@@ -25,7 +25,7 @@ class NavBar extends Component {
         >
           <ul className="navbar-nav">
             <li className="nav-item active d1">
-              <a className="nav-link " href="#about">
+              <a className="nav-link " href="#aboutSec">
                 <span className="highlight mr">01</span>About Me{" "}
               </a>
             </li>
