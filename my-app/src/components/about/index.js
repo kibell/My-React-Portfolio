@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import KBimg from "../../images/kb.png"
-
+import { FaArrowDown } from "react-icons/fa"
 import "./styles.css";
 
 class About extends Component {
@@ -34,7 +34,7 @@ class About extends Component {
           </div>
        
       
-      
+          <a href="#workSec"><FaArrowDown className="ArrowDown"  /></a>
       </section>
     );
   }

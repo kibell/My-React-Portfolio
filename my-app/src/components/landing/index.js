@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typewriter from "typewriter-effect";
 import "./styles.css";
+import { FaArrowDown } from "react-icons/fa"
 
 class Landing extends Component {
   render() {
@@ -37,10 +38,12 @@ class Landing extends Component {
     <h5>Currently working as a Systems Analyst. I am certified in Full-Stack Web development. I am eager to learn and ready to expand
     my knowledge in technology systems. Check out my Library of Projects and Applications I have been working on.
      </h5> 
-      <button className="theme-btn" > <a href="./project.html">View Project Library </a> </button>
+      <button className="theme-btn" > <a href="https://kibell.github.io/My-Portfolio/project.html">View Project Library </a> </button>
     
   </div>
   </div>
+
+  <a href="#aboutSec"><FaArrowDown className="ArrowDown"  /></a>
       </section>
     );
   }

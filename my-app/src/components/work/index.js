@@ -3,6 +3,7 @@ import "./style.css";
 import Empimage from  "./images/emp.gif"
 import LogixImg from "./images/logix-logo.png"
 import CapImg from "./images/Capco.jpg"
+import { FaArrowDown } from "react-icons/fa"
 class Work extends Component {
 
   
@@ -100,6 +101,8 @@ changeCapcoDuty = () => {
             </div>
           </div>
         </div>
+
+        <a href="#education"><FaArrowDown className="ArrowDown"  /></a>
       </section>
     );
   }

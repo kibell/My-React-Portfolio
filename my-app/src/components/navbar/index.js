@@ -42,7 +42,7 @@ class NavBar extends Component {
               </a>
             </li>
             <li className="nav-item d4">
-              <a className="nav-link" href="./project.html">
+              <a className="nav-link" href="https://kibell.github.io/My-Portfolio/project.html">
                 <span className="highlight mr d4">04</span>Project Library
               </a>
             </li>
