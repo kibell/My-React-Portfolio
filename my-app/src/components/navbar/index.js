@@ -5,7 +5,7 @@ import "./styles.css";
 class NavBar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg" id="top">
         <img src={Logo} alt="" />
         <button
           className="navbar-toggler"

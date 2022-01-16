@@ -13,7 +13,7 @@ class Footer extends Component {
       <footer>
         <div class="container">
           <div class="back-to-top">
-            <a href="#beginning">
+            <a href="#top">
               <FaArrowUp className="fas fa-chevron-up"></FaArrowUp>
             </a>
           </div>
