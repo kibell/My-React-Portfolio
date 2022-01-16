@@ -6,7 +6,7 @@ import { FaArrowDown } from "react-icons/fa"
 class Landing extends Component {
   render() {
     return (
-    <section className="beginning">
+    <section className="beginning" id="beginning">
         <div className="row">
           <div className="col-md-12 gt">
             <p className="highlight como" >

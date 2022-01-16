@@ -5,15 +5,19 @@ import { FaTwitter } from "react-icons/fa";
 import { FaGithubAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import Resume from '../sidebar/KBell.pdf'
 
 class Sidebar extends Component {
+
+ 
+
   render() {
     return (
       <div className="sideBar">
         <ul>
           <li>
-            <FaFileAlt className="iconP"  />
-            <p className="resumeP">Download Resume</p>
+           <a  href={Resume} target="_blank" ><FaFileAlt className="iconP"/></a> 
+            <p className="resumeP" >Download Resume</p>
           </li>
           <li>
           <a href="https://github.com/kibell" target="_blank" rel="noreferrer" className="noDec"><FaGithubAlt className="icons"/></a>

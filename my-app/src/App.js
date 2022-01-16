@@ -5,6 +5,7 @@ import Landing from './components/landing';
 import About from './components/about';
 import Work from './components/work';
 import Education from './components/education';
+import Footer from './components/Footer';
 import './App.css';
 import { Fragment } from 'react';
 
@@ -18,7 +19,9 @@ function App() {
    <About/>
    <Work/>
    <Education/>
+   
    </div>
+   <Footer/>
    </Fragment>
       
     

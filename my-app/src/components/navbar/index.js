@@ -52,6 +52,12 @@ class NavBar extends Component {
                 <span className="highlight mr d4">05</span>Contact Me
               </a>
             </li>
+
+            <li className="nav-item d4">
+              <a className="nav-link" href="https://bellsproutdesigns.com/blog/" target="_blank">
+                <span className="highlight mr d4">06</span>Blogs
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
