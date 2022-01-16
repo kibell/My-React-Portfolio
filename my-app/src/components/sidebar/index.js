@@ -16,7 +16,7 @@ class Sidebar extends Component {
       <div className="sideBar">
         <ul>
           <li>
-           <a  href={Resume} target="_blank" ><FaFileAlt className="iconP"/></a> 
+           <a  href={Resume} target="_blank" rel="noreferrer"><FaFileAlt className="iconP"/></a> 
             <p className="resumeP" >Download Resume</p>
           </li>
           <li>

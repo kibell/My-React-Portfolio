@@ -54,7 +54,7 @@ class Education extends Component {
             </h1>
             <hr class="hrt" />
             <div class="eduPic">
-              <img src={this.state.imgSrc} class="imgSwitch" />
+              <img src={this.state.imgSrc} class="imgSwitch" alt="imgCert" />
             </div>
             <ul>
               <li>
@@ -70,7 +70,7 @@ class Education extends Component {
                 <p>September 2019- March 2020</p>
               </li>
             </ul>
-            <img src="" class="cert" />
+            <img src="" class="cert" alt="certification"/>
           </div>
 
           <div class="col-md-1"></div>

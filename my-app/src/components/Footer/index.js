@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import KBimg from "../../images/klogo.png";
 import { FaEnvelope } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaGithubAlt } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import "./styles.css";
 
 class Footer extends Component {
@@ -18,7 +15,7 @@ class Footer extends Component {
             </a>
           </div>
           <div class="footer-content  animate-up">
-            <img className="kblogo" src={KBimg}/>
+            <img className="kblogo" src={KBimg} alt="kblogo"/>
 
             <p></p>
           </div>
