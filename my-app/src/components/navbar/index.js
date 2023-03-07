@@ -26,7 +26,7 @@ class NavBar extends Component {
           <ul className="navbar-nav">
             <li className="nav-item active d1">
               <a className="nav-link " href="#aboutSec">
-                <span className="highlight mr">01</span>About Me{" "}
+                <span className="highlight mr">1</span>About Me{" "}
               </a>
             </li>
 
@@ -42,7 +42,10 @@ class NavBar extends Component {
               </a>
             </li>
             <li className="nav-item d4">
-              <a className="nav-link" href="https://kibell.github.io/My-Portfolio/project.html">
+              <a
+                className="nav-link"
+                href="https://kibell.github.io/My-Portfolio/project.html"
+              >
                 <span className="highlight mr d4">04</span>Project Library
               </a>
             </li>
@@ -54,7 +57,12 @@ class NavBar extends Component {
             </li>
 
             <li className="nav-item d4">
-              <a className="nav-link" href="https://bellsproutdesigns.com/blog/" rel="noreferrer" target="_blank">
+              <a
+                className="nav-link"
+                href="https://bellsproutdesigns.com/blog/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <span className="highlight mr d4">06</span>Blogs
               </a>
             </li>
